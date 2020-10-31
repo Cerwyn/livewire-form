@@ -23,15 +23,13 @@ class Login extends Component
     public function login()
     {
         $attr = $this->validate();
-        
-        if(Auth::attempt($attr))
-        {
+
+        if (Auth::attempt($attr)) {
             return redirect()->route('home');
         }
 
         $this->dispatchBrowserEvent('notify', 'Login Failed');
         $this->reset(['password']);
-
     }
 
     public function render()
