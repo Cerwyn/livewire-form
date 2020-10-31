@@ -1,0 +1,26 @@
+1. composer create-project laravel/laravel --prefer-dist livewire-form
+2. composer require livewire/livewire
+3. install Tailwind -> npm install tailwindcss
+4. composer require laravel/ui
+5. php artisan ui vue
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+6.  npx tailwind init
+7. configure webpack
+8. npm install && npm run dev
+9. <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+7. install Alpine Add the following script to the end of your <head> section.
+
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+9. php artisan livewire:make Registration
+10. welcomde blade php add @liviwire
+10. Modify Registration Blade
+11. Modify Registratinon Livewire controllers
+
+11. 
